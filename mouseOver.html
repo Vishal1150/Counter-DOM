@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse over </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p id="para">Hello Brother</p>
+    <script>
+      let p = document.getElementById("para");
+    p.addEventListener("mouseover",show)
+    function show (){
+        p.innerText = " You over the mouse Bye Brother"
+        p.style.color ="red";
+
+    }
+    </script>
+</body>
+</html>

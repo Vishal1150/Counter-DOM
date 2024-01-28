@@ -1,19 +1,31 @@
-section{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-width: 100vw;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 
-#para-box-for-answer{
-    border: 2px solid black;
-    height: 20px;
-    /* width: 10px; */
-    padding: 5px;
+
+#btn{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
 }
-.btn{
-    padding: 5px;
-    border-radius: 20px;
-    margin: 0 7px;
+
+
+#btn2{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgba(228, 45, 45, 0.81);
+    color: white;
+    border-radius: 25px;
+}
+
+#para{
+    font-size: 30px;
 }
